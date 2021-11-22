@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html body{
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),url("images/background/back_gif.webp");
+    
+}
+
+h1 {
+    background:none;
+    font-size: 4em;
+    color:white;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0  #da0463;
+    display: block;
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    border: 2px solid white;
+    width:20rem;
+    margin: auto;
+    height: 4px;
+    box-shadow: -3px 3px 3px #da0463;
+}
+
+.flex-container{
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+
+    display: flex;
+    
+    width: auto;
+    height: 500px;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row1{
+    display:flex;
+    
+    height: 150px;
+    width: 1200px;;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-direction:row;
+    align-items: center;
+    
+}
+
+.row2{
+    display:flex;
+    
+    height: 100px;
+    width: 900px;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-direction:row;
+    align-items: center;
+}
+
+.row3{
+    display:flex;
+    height: 100px;
+    width: 650px;
+    flex-direction:column;
+    justify-content: space-around;
+    flex-direction:row;
+    align-items: center;
+}
+
+
+.space{
+    background:url(https://media3.giphy.com/media/oTjoawKEq3wYD5fKEh/giphy.gif?cid=ecf05e47icwm6sg0mwv8wst3bywsklvnl9lant9dld2dm0k5&rid=giphy.gif&ct=g);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    
+    border: 3px solid black;
+    border-radius: 12px;
+    height: 2cm;
+    width:10cm;
+    
+    font-family: 'Grandstander', cursive;
+    font-size:50px;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+    
+    text-shadow:5px 5px 10px whitesmoke;
+    color:honeydew;
+    padding-top:20px;
+    padding-left:15%;
+}
+
+
+.row1 .key{
+    
+    text-shadow:5px 5px 10px whitesmoke;
+    
+    background-color:grey;
+    border:3px solid black;
+    border-radius: 15%;
+    height: 3cm;
+    width: 3cm;
+    background-image: none;
+    font-family: 'Grandstander', cursive;
+    font-size:50px;
+    color:honeydew;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+
+    padding-top:25px;
+    padding-left:35px;
+}
+
+.row2 .key{
+    
+    text-shadow:5px 5px 10px whitesmoke;
+    
+    background-color:grey;
+    border:3px solid black;
+    border-radius:15%;
+    height: 2cm;
+    width: 2cm;
+    background-image: none;
+    font-family: 'Grandstander', cursive;
+    font-size:40px;
+    color:honeydew;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+
+    padding-top:15px;
+    padding-left:20px;
+}
+
+.row3 .key{
+    
+    text-shadow:5px 5px 10px whitesmoke;
+    
+    background-color:grey;
+    border:3px solid black;
+    border-radius: 15%;
+    height: 1.5cm;
+    width: 1.5cm;
+    background-image: none;
+    font-family: 'Grandstander', cursive;
+    font-size:30px;
+    color:honeydew;
+
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+
+    padding-top:10px;
+    padding-left:15px;
+}
+
